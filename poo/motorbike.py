@@ -26,5 +26,6 @@ class Motorbike:
 
 if __name__ == "__main__":
     p = Motorbike("MT07", 2023, 700)
+    print(p.year)
     p.start()
     print(p.model, p.power)
