@@ -6,7 +6,7 @@ class NewMoto(IMotorbike):
         self.__nome = nome
 
     def start(self) -> None:
-        print("start")
+        print("Traveling at 200 km/h")
     
     def stop(self) -> None:
         print("No break!!!")
@@ -25,7 +25,7 @@ class OldMoto(IMotorbike):
         self.__nome = nome
 
     def start(self) -> None:
-        print("start")
+        print("Traveling at 150 km/h")
     
     def stop(self) -> None:
         print("Stopping")
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     nwm.stop()
 
     print()
-    
+
     old = OldMoto("Moto 1975")
 
     print(old.nome)
